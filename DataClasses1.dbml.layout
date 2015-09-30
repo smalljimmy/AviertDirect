@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/AviertDataContext" />
+  <nestedChildShapes>
+    <classShape Id="66c248c1-affd-45c0-9f58-0b0d34be9267" absoluteBounds="1.125, 5.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/AviertDataContext/NlsObject" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d3339702-c700-4288-8389-65551da57745" absoluteBounds="1.1399999999999997, 5.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c9546c21-2bcc-4cd9-946b-c20fef29f706" absoluteBounds="3.125, 0.625, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/AviertDataContext/Person" />
+      <nestedChildShapes>
+        <elementListCompartment Id="876e04d7-8647-4ed7-a14c-51ae63877423" absoluteBounds="3.14, 1.085, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4c10d44a-55c4-4e0e-bb94-ca28b75358e0" absoluteBounds="1, 0.625, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/AviertDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4284ecfd-7a75-40a4-b398-6e86c86a03aa" absoluteBounds="1.0149999999999997, 1.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="db480871-7b5c-4793-abf9-11f99bee8427" absoluteBounds="5.375, 4.375, 2, 2.3478011067708326">
+      <DataClassMoniker Name="/AviertDataContext/InsuranceDetails" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f72c3a78-218d-4c1c-87a2-399e4394cced" absoluteBounds="5.39, 4.835, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="73286617-4fce-4bd6-81d4-a7c4148fc641" absoluteBounds="5.25, 0.625, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/AviertDataContext/DatatransTransaction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e75d5117-cb55-4af0-b5af-74b33ad92e88" absoluteBounds="5.2650000000000006, 1.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="154d761f-c1f1-4f30-b632-378d29cbe757" absoluteBounds="1.125, 3.25, 2, 1.9631982421874996">
+      <DataClassMoniker Name="/AviertDataContext/CreditCardAlias" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0a420c80-33f7-4f95-824b-9fe09d48757a" absoluteBounds="1.1400000000000001, 3.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

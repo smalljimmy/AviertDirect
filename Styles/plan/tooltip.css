@@ -1,0 +1,16 @@
+ /* tooltip styling. by default the element to be styled is .tooltip  */
+
+.tooltip {
+         display:none;
+         background-color: rgba(198,178,167, 09); /* 151,21,0, 0.9 */
+         box-shadow: 0px 0px 6px rgb(113,103,94);
+         border: 1px solid rgb(113,103,94);
+         margin-top: 2px;
+         font: 12px/18px 'OpenSansSemibold';
+         color: rgb(78,65,65); 
+         height: auto;
+         width:150px;
+         padding: 20px 10px 20px 20px;
+         z-index: 999;
+         }
+.tooltip span { font: 12px/18px 'OpenSansBold'; }

@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0; border:0; outline:0; font-size:100%; background:transparent; font-weight:normal; }
+            
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; }
+/* // HTML5 display-role reset for older browsers */
+
+
+/* get rid of those system borders being generated for a tags */
+a:active { outline: none; }
+a:focus { -moz-outline-style: none; }  
+/* // get rid of those system borders being generated for a tags */
+
+body { background-color: rgb(78,65,65); }
+#wrapper {
+         width: 740px;
+         margin: 0 auto;
+         padding: 0; }
+            
+#container {
+         position: relative;
+         float: left;
+         top: 20px;
+         width: 660px;
+         height: auto;
+         padding: 40px 120px 40px 50px;
+         margin-bottom: 50px;
+         background-color: rgb(255,255,255); 
+         border-top: 30px solid rgb(255,234,82);
+         border-bottom: 30px solid rgb(255,234,82); 
+         background-image: url(../images/okay/okay.004.png);
+         background-repeat: no-repeat;
+         background-position: right bottom; }
+         
+h1, h2 {
+         font-family: 'OpenSansCondensedBold';
+         font-weight: normal;
+         font-style: normal; }
+         
+h1 {
+         font-size: 36px;
+         line-height: 44px; 
+         margin-bottom: 30px; } 
+         
+h2 { 
+         font-size: 24px;
+         line-height: 28px;
+         margin-top: 20px;
+         margin-bottom: 10px; }
+         
+p, p a, ol, ul { 
+         font-family: 'OpenSansRegular';
+         font-weight: normal;
+         font-style: normal; 
+         font-size: 13px;
+         line-height: 21px; 
+         color: rgb(102,102,102); 
+         margin-bottom: 10px; }
+         
+ol, ul { margin: 0 120px 30px 40px; }
+li { margin-bottom: 7px; }
+
+strong {
+         font-family: 'OpenSansBold';
+         font-weight: normal;
+         font-style: normal;
+         font-size: 100%; 
+         color: #000; }
+         
+#fragen {
+         display: block;
+         position: relative;
+         float: left;
+         left: 40px;
+         width: 480px; }
+         
+#fragen p { 
+         font-family: 'OpenSansRegular';
+         font-weight: normal;
+         font-style: normal; 
+         font-size: 13px;
+         line-height: 21px; 
+         color: rgb(102,102,102); 
+         margin: 0 100px 10p 60px; }
+         
+
+/* HELLO 
+* establishes the welcome line within the yellow border */
+
+#hello {
+         display: block;
+         position: absolute;
+         top: -30px;
+         right: 5px; }
+         
+#hello p {
+         font-size: 12px;
+         line-height: 30px; 
+         color: black; }

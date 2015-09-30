@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+<meta charset="utf-8">
+<title>AVIERTdirect placement — Heilungskosten-Versicherung für temporär in der Schweiz arbeitende Personen aus dem Ausland</title>
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="Krankenkasse, ÖKK, Hausarztsystem, Heilungskosten, Versicherung, günstig, temporär arbeiten, casamed">
+<link rel="stylesheet" type="text/css" href="/styles/default.css">
+<link rel="stylesheet" type="text/css" href="/styles/table.css">
+<link rel="stylesheet" type="text/css" href="/opensans/opensans.css">
+<link rel="stylesheet" type="text/css" href="/opensans-condensed/opensans-condensed.css">
+<link rel="stylesheet" type="text/css" href="/styles/tooltip.css">
+<link href="/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/styles/themes/base/minified/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="/styles/datepicker.css">
+
+<script src="/scripts/jquery-1.7.1.js"></script>
+<script src="/scripts/jquery.easing.1.3.js"></script>
+<script src="/scripts/jquery.tools.min.js"></script>
+<script src="/fancybox/jquery.fancybox-1.3.4.min.js"></script>
+<script src="/scripts/in_page.js"></script>
+<script src="/scripts/modernizr.js"></script>
+<script src="/scripts/ui/minified/jquery.ui.core.min.js"></script>
+<script src="/scripts/ui/minified/jquery.ui.datepicker.min.js"></script>
+<script src="/scripts/ui/minified/jquery.ui.widget.min.js"></script>
+<script src="/scripts/facebook.js"></script>
+
+</head>
+
+<body id="plan">
+<div id="wrapper">
+      
+         <a href="register.aspx"><div id="registerbutton"></div></a><!-- End registerbutton -->
+      
+   <div id="mainheader"><h1>AVIERT<span>direct placement</span></h1></div><!-- End mainheader -->
+   <nav id="mainnavigation">
+      <ul>
+      <li id="mainnavigation-index"><a href="index.html">Home</a></li>
+      <li id="mainnavigation-anmelden"><a href="register.aspx">Anmelden</a></li>
+      <li id="mainnavigation-plan"><a href="plan.html">Plan</a></li>
+      <li id="mainnavigation-impressum"><a href="http://aviert.com/impressum.html" class="iframe">Impressum</a></li>
+      <li id="mainnavigation-agb"><a href="agb.html" class="iframe">AGB</a></li>
+      </ul>
+      
+   </nav><!-- End mainnavigation -->
+   
+   <div id="container">
+
+    <div id="hello">
+         <p><a href="login.aspx">Login</a></p>
+   </div><!-- End hello -->
+   
+   <section id="default">
+   
+      <h1>Mit AVIERT<span>direct placement</span><br> sind Sie bei CSS ARCOSANA CALLMED versichert.</h1>
+      
+      <p>ARCOSANA CALLMED ist ein modernes Hausarztsystem. Bei Gesundheitsfragen und Problemen rufen Sie immer zuerst <a href="downloads/03900_d_demand.pdf" class="iframe">CALLMED</a> an.</p>
+      
+      <h3><span>Telefon </span>058 277 77 77</h3>
+      
+      <p><strong>Hier können Sie Ihren Plan berechnen.</strong> Geben Sie den Versicherungsbeginn ein und wählen Sie eine Franchise. Die Franchise bezeichnet Ihren jährlichen Selbstbehalt. Je höher die Franchise, umso kleiner die monatliche Belastung. Sie können die Franchise innerhalb eines Kalenderjahres nicht ändern. 
+      </p>
+      <p><strong>Die monatliche Belastung</strong> setzt sich zusammen aus der Prämie für die Versicherung und dem Mitgliedsbeitrag für den Verein Aviert.com. Im ersten Monat berechnet sich die Belastung anhand des Beginndatums der Versicherung.
+      </p> 
+
+   <div id="formForPlan">
+   <h1>Rechne die monatlichen Kosten</h1>
+      
+      <table class="plan">
+         <tr>
+            <th scope="row">Versicherungsbeginn</th>
+            <td><input type="text" id="txtBegin" name="txtBegin" class="date" onchange="javascript:GetPaymentData()" /></td>
+            </tr>    
+         <tr>
+            <th scope="row">Franchise</th>
+               <td><select id='ddlFranchise' name='ddlFranchise' onchange="javascript:GetPaymentData()">
+                  <option value="select">Die Franchise wählen</option>
+                  <option value="300">CHF 300.00</option>
+                  <option value="500">CHF 500.00</option>
+                  <option value="1000">CHF 1'000.00</option>
+                  <option value="1500">CHF 1'500.00</option>
+               </select></td>
+         </tr>         
+         <tr>
+            <th scope="row">Kosten im Beginnmonat</th>
+            <td scope="row"><div id='lblErstePraemie'>0.00</div></td>
+            </tr>
+         <tr>
+            <th scope="row">Danach monatlich</th>
+            <td scope="row"><div id='lblPraemie'>0.00</div></td>
+            </tr>      
+      </table><!-- plan --> 
+      
+   </div><!-- End formForPlan -->
+   
+   <div id="documents-productsheet">
+      <img src="images/productsheet.png" style="height:203px; width:218px;" alt="young man" title="Hier das Produktblatt ARCASANA CALLMED lesen und bei Bedarf herunter laden.">
+      <br><br>
+      <a href="/downloads/507_d_callmed.pdf" target="blank">Produktblatt CALLMED</a><br>
+      <a href="/downloads/507_f_callmed.pdf" target="blank">Feuille de produits CALLMED</a><br>
+      <a href="/downloads/507_i_callmed.pdf" target="blank">Foglio dei prodotti CALLMED</a><br>
+      <a href="/downloads/507_e_callmed.pdf" target="blank">Product sheet CALLMED</a>
+   </div><!-- End plan-productsheet -->
+   
+   <div id="documents-medgate">
+      <img src="images/medgate.png" style="height:203px; width:218px;" alt="Telefongirl" title="Rund um die Uhr an 7 Tagen die Woche ärztliche Betreuung.">
+      <br><br>
+      <a href="downloads/03900_d_demand.pdf" target="blank">24h Notfall 058 277 77 77</a><br>
+      <a href="downloads/03900_f_demand.pdf" target="blank">24h urgence 058 277 77 77</a><br>
+      <a href="downloads/03900_i_demand.pdf" target="blank">24h emergenze 058 277 77 77</a><br>
+      <a href="#">24h emergency 058 277 77 77</a>
+   </div><!-- End plan-medgate -->
+   
+   <div id="documents-rules">
+      <img src="images/rules.jpg" style="height:191px; width:218px;" alt="Regeln" title="Was zu beachten ist.">
+      <br><br>
+      <a href="downloads/802_d_avb_arcosana_callmed.pdf" target="blank">Reglement Ausgabe 01.2012</a><br>
+      <a href="downloads/802_f_avb_arcosana_callmed.pdf" target="blank">Règlement Edition 01.2012</a><br>
+      <a href="downloads/802_i_avb_arcosana_callmed.pdf" target="blank">Regolamento Ed. 01.2012</a><br>
+      <a href="downloads/802_e_avb_arcosana_callmed.pdf" target="blank">Regulations issued 01.2012</a>
+   </div><!-- End plan-rules -->
+   
+   </section><!-- End default -->
+   
+   </div><!-- End container -->
+   
+<!-- seinclude mainfooter.txt -->
+   <footer id="mainfooter">
+   
+      <div id="mainfooter-left">
+         <p><a href="http://aviert.com/" target="blank">Verein AVIERT.com</a><br>
+         <a href="http://aviertcallmed.com/" target="blank">AviertCallmed für Temporärvermittler</a><br>
+         <a href="http://binais.com/" target="blank">Binaïs the business model company</a><br>
+         <a href="http://paracelsus-heute.com/" target="blank">Stiftung Paracelsus Heute</a><br>
+         <a href="http://twi-consulting.ch/" target="blank">twi-consulting</a></p>
+      </div><!-- End mainfooter-left -->
+      
+      <div id="mainfooter-middle">
+         <h1>AVIERT<span>direct placement</span></h1>
+         <p>Alte Spinnerei . 8877 Murg am Walensee</p>
+      </div><!-- End mainfooter-direct -->
+      
+      <div id="mainfooter-right">
+         <p><a href="downloads/507_d_callmed.pdf" target="blank">Produktblatt CALLMED</a><br>
+         <a href="downloads/03900_d_demand.pdf" target="blank">24h Notfall 058 277 77 77</a><br>
+         <a href="downloads/802_d_avb_arcosana_callmed.pdf" target="blank">Reglement Ausgabe 01.2012</a><br>
+         <a href="agb.html" class="iframe">AVIERTdirect placement AGB</a></p>
+      </div><!-- End mainfooter-right -->
+      
+   </footer><!-- mainfooter -->
+<!-- End include -->
+
+</div><!-- End wrapper -->
+
+<script>
+    $(function () {
+        $('#wrapper').hide().fadeIn(700);           // fades wrapper's content
+        $('#default a[title]').tooltip();      // tooltips for the gallery     
+    }); // end ready
+    $(function () {
+        var dates = $("#txtBegin, #to").datepicker({
+            defaultDate: "+1w",
+            changeMonth: true,
+            numberOfMonths: 1,
+            dateFormat: 'dd.mm.yy',
+            onSelect: function (selectedDate) {
+                var option = this.id == "from" ? "minDate" : "maxDate",
+                           instance = $(this).data("datepicker"),
+                           date = $.datepicker.parseDate(
+                           instance.settings.dateFormat ||
+                           $.datepicker._defaults.dateFormat,
+                           selectedDate, instance.settings);
+                dates.not(this).datepicker("option", option, date);
+                GetPaymentData();
+            }
+        });
+    });
+
+    function GetPaymentData() {
+        if ($('#ddlFranchise').val() == 'select' || $('#txtBegin').val() == '') {
+            $('#lblErstePraemie').text('0.00');
+            $('#lblPraemie').text('0.00');
+            return;
+        }
+
+        $.ajax({
+            type: "POST",
+            url: "RegistrationService.asmx/GetPaymentData",
+            data: '{ p_franchise: \'' + $('#ddlFranchise').val() + '\', p_begin: \'' + $('#txtBegin').val() + '\' }',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: OnGetPraemie,
+            error: OnError
+        });
+    }
+
+    function OnGetPraemie(data, status) {
+        var tmp = data.d;
+        var cost = tmp.split('|');
+
+        $('#lblErstePraemie').text(cost[1]);
+        $('#lblPraemie').text(cost[2]);
+    }
+
+    function OnError(request, status, error) {
+        alert(request.statusText);
+    }
+
+   </script>
+</body>
+</html>

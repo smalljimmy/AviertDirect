@@ -1,0 +1,148 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0; border:0; outline:0; font-size:100%; background:transparent; font-weight:normal; }
+            
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; }
+/* // HTML5 display-role reset for older browsers */
+
+
+/* get rid of those system borders being generated for a tags */
+a:active { outline: none; }
+a:focus { -moz-outline-style: none; }  
+/* // get rid of those system borders being generated for a tags */
+
+body { background-color: rgb(113,103,94); }
+#wrapper {
+         width: 840px;
+         margin: 0 auto;
+         padding: 0; }
+
+
+/* hello div to welcome, login and logout, 
+* loacated within container's yellow border */          
+#container {
+         position: relative;
+         float: left;
+         top: 0;
+         width: 100%;
+         height: auto;
+         margin-bottom: 50px;
+         background-color: rgb(255,255,255); 
+         border-top: 30px solid rgb(255,234,82);
+         border-bottom: 30px solid rgb(255,234,82); }
+#hello {
+         display: block;
+         position: relative;
+         float: right;
+         top: -30px;
+         right: 8px; 
+         z-index: 99; }       
+#hello p, #hello a {
+         font-size: 12px;
+         line-height: 30px; 
+         color: black; 
+         text-decoration: none; }
+#hello a { letter-spacing: 1px; }
+#hello a:hover { color: rgb(232,89,21); } 
+         
+
+/* MAINHEADER *************************
+* Above container
+* displays the AVIERTdirect logo ************/       
+#mainheader {
+         display: block;
+         position: relative;;
+         float: left;
+         left: -200px;
+         width: 100%;
+         height: 80px;
+         margin-top: 20px; }
+         
+#mainheader h1 {
+         font-family: 'OpenSansExtrabold';
+         font-weight: normal;
+         font-style: normal;
+         color: rgb(0,0,0);
+         font-size: 48px; }
+         
+#mainheader h1 span {
+         font-family: 'OpenSansLightItalic';
+         font-weight: normal;
+         font-style: normal;
+         font-size: 36px; 
+         color: rgb(255,255,255); } 
+         
+         
+h1 {
+         font-family: 'OpenSansRegular';
+         font-weight: normal;
+         font-style: normal; 
+         font-size: 32px;
+         line-height: 44px;
+         text-align: center; 
+         _margin-bottom: 30px; }
+         
+p, p a { 
+         font-family: 'OpenSansRegular';
+         font-weight: normal;
+         font-style: normal; 
+         font-size: 13px;
+         line-height: 21px; 
+         color: rgb(102,102,102); 
+         text-align: center;
+         margin-bottom: 10px; }
+         
+
+/* SECTIONS 
+******************************* */
+#choice, #headline, #baseline {
+         display: block;
+         position: relative;
+         float: left;
+         width: 100%;
+         height: auto;
+         margin: 0 auto; }
+         
+#headline { margin: 20px auto 40px auto; }
+
+#baseline { margin: 20px auto; }               
+         
+strong { font-family: 'OpenSansBold'; font-size: 100%; }
+
+ul {
+         position: relative;
+         float: left;
+         margin-left: 80px; }
+li { margin-bottom: 10px; }
+
+ul.hover_block li, ul.hover_block2 li {
+         list-style:none;
+         float:left;
+         background: rgb(212,212,212);
+         padding: 10px;
+         width: 300px; 
+         position: relative;
+         margin-right: 20px; }
+
+ul.hover_block li a, ul.hover_block2 li a {
+         display: block;
+         position: relative;
+         overflow: hidden; 
+         height: 150px;
+         width: 268px;
+         padding: 16px;
+         color: #000;
+         font-family: 'OpenSansRegular';
+         font-weight: normal;
+         font-style: normal; 
+         font-size: 16px;
+         line-height: 24px; }
+
+ul.hover_block li a, ul.hover_block2 li a { text-decoration: none; }
+
+ul.hover_block li img, ul.hover_block2 li img {
+         position: absolute;
+         top: 0;
+         left: 0;
+         border: 0; } 
+         

@@ -1,0 +1,264 @@
+
+/*******************************************************
+*TABLES 
+*The periode class styles the insurance periode within versichern.html
+*The registering class covers the tables within anmelden.html
+*The plan class is for plan.html
+*******************************************************/
+
+         
+table.insurance, 
+table.logindata,
+table.registering, 
+table.plan, 
+table.paying {
+         border-collapse: collapse;
+         display: block;
+         position: relative;
+         float: left;
+         width: 600px;
+         margin: 0 0 20px 80px; }
+
+table.plan { width: auto; margin: 10px 0 0 0; }
+            
+.insurance tbody th, 
+.logindata tbody th,
+.registering tbody th, 
+.paying tbody th {
+         width: auto;
+         min-width: 140px;
+         font-family: 'OpenSansCondensedBold';
+         font-size: 15px;
+         line-height: 32px;
+         font-weight: normal;
+         font-style: normal; 
+         color: rgb(113,103,94);
+         text-align: right;
+         background-color: rgb(198,178,167);
+         padding: 0px 8px;
+         border-bottom: 1px solid rgb(255,255,255); 
+         vertical-align: top
+}
+         
+.insurance tbody th { background-color: rgb(239,138,91); color: rgb(128,64,0); } /* = 60% of 232,89,21 */
+.insurance tbody .periods { color: rgb(153,153,153); background-color: #fff; }  
+.logindata tbody th { background-color: rgb(219,186,0); color: rgb(137,117,0); } 
+.paying tbody th { background-color: rgb(71,163,220); color: rgb(78,65,65); } 
+            
+.insurance tbody td, 
+.logindata tbody td,
+.registering tbody td, 
+.paying tbody td {
+         width: 420px;
+         _height: 10px;
+         font-family: 'OpenSansRegular';
+         font-size: 14px;
+         line-height: 32px;
+         font-weight: normal;
+         font-style: normal;             
+         padding: 0 20px;
+         color: rgb(78,65,65);
+         text-align: left;
+         background-color: rgb(241,240,239);                     
+         border-bottom: 1px solid rgb(255,255,255); }
+         
+.insurance tbody td { background-color: rgb(253,244,239); } /* = 10% of 232,89,21 */
+.logindata tbody td { background-color: rgb(255,242,151); } /* = 60% of 255,234,82 */
+.paying tbody td { background-color: rgb(145,200,234); } /* = 60% of 255,234,82 */ 
+
+/************************************** 
+* This styles the information given within a table
+***************************************/
+#information, #informationPaying,
+.insurance tbody .empty, 
+.registering tbody .empty {
+         display: block;
+         position: relative;
+         float: left;
+         width: 400px;
+         height: auto;
+         font-family: 'OpenSansRegular';
+         font-size: 10px;
+         line-height: 12px;
+         color: rgb(78,65,65);
+         font-weight: normal;
+         font-style: normal;             
+         padding: 15px 0 5px 0;
+         margin-left: 260px; 
+         background-color: #fff; }
+         
+.empty li 
+{
+         font-size: 10px;
+         margin-bottom: 2px;
+         line-height: 12px;
+}
+         
+#informationPaying, #informationPaying a { font-size: 11px; line-height: 17px; }
+#informationPaying a { color: rgb(71,163,220); border-bottom-color: rgb(71,163,220); }
+#informationPaying a:hover { color: rgb(232,89,21); border-bottom-color: rgb(232,89,21); }
+#informationPaying strong { color: rgb(71,163,220); }
+#informationPaying strong:hover { color: rgb(232,89,21); }
+         
+.insurance tbody .empty, .registering tbody .empty { 
+         width: auto; 
+         padding-left: 20px; 
+         margin-left: 0; }
+         
+.insurance tbody .emptyhead,
+.registering tbody .emptyhead { background-color: #fff; }
+            
+.registering tfoot th{
+         padding: 10px;
+         font-size: 18px;
+         text-transform: uppercase;
+         color: #888; }
+            
+.registering tfoot td{
+         height: 100px; 
+         font-family: 'OpenSansRegular';
+         font-size: 14px;
+         font-weight: normal;
+         font-style: normal;  
+         color: rgb(79,79,79);
+         border-top: none;
+         border-bottom: 3px solid rgba(0,33,94,0.3); }
+            
+.Check, .Radio { 
+         font-family: 'OpenSansRegular';
+         font-size: 11px;
+         font-weight: normal;
+         font-style: normal;
+         color: rgb(33,31,31);
+         background-color: rgb(241,241,241); 
+         border: 1px solid rgb(221,221,221); 
+         width: 20px; }        
+
+            
+.Check { width: 13px; }
+         
+
+
+/* BUTTONS ***********************************
+* This buttons are in use for next, save, back, exit, etc.
+* They display inline but need the functionpanel to do so
+*********************************************/
+
+#functionpanel {
+         display: block;
+         position: relative;
+         float: left;
+         width: 660px;
+         height: 32px; 
+         margin: 30px 0; }
+
+#functionbutton, #functionbutton a { 
+         display: inline-block;
+         position: relative;
+         float: right;
+         width: 120px;
+         height: 32px;
+         font-family: 'OpenSansCondensedLight';
+         font-weight: normal;
+         font-style: normal; 
+         font-size: 22px;
+         line-height: 32px;
+         color: rgb(241,240,239);
+         padding: 0;
+         margin: 0 0 0 5px;
+         text-align: center;
+         text-decoration: none; 
+         background-color: rgb(113,103,94); }
+         
+#functionbutton:hover { 
+         background-color: rgb(170,164,158); 
+         color: #fff; }
+
+#functionbutton.insurance { background-color: rgb(128,64,0); color: rgb(204,179,153); }
+#functionbutton.insurance:hover { background-color: rgb(204,179,153); color: #fff; }
+
+#functionbutton.paying { background-color: rgb(71,163,220); color: rgb(232,243,247); }
+#functionbutton.paying:hover { background-color: rgb(145,200,234); color: #fff; } /* = 60% of 71,163,220 */
+
+
+
+
+/* CALCULATER ***************************
+* form for the calculater (Rechner) on plan.html 
+* on index and plan.html *******************/
+
+#formForPlan {
+         position: relative;
+         float: left;
+         width: 360px;
+         height: auto;
+         margin: 10px 100px 40px 370px;
+         padding: 0 0 15px 0; 
+         background-color: rgb(241,240,239);
+         border: 1px solid rgb(138,130,123); }
+
+#formForPlan h1 {
+         font-family: 'OpenSansCondensedBold';
+         font-weight: normal;
+         font-style: normal; 
+         font-size: 24px;
+         line-height: 36px; 
+         text-align: center;
+         color: rgb(241,240,239);
+         margin: 0; 
+         background-color: rgb(138,130,123); }
+
+table.plan {
+         border-collapse: collapse;
+         display: block;
+         position: relative;
+         float: left;
+         width: auto; 
+         margin: 10px 0 0 0; }
+         
+.plan tbody th {
+         width: auto;
+         min-width: 140px;
+         font-family: 'OpenSansRegular';
+         font-size: 13px;
+         line-height: 32px;
+         font-weight: normal;
+         font-style: normal; 
+         color: rgb(138,130,123);
+         text-align: right;
+         _background-color: rgb(198,178,167);
+         padding: 0px 8px; } 
+         
+.plan tbody td {
+         _width: 420px;
+         _height: 10px;
+         font-family: 'OpenSansBold';
+         font-size: 18px;
+         line-height: 32px;
+         font-weight: normal;
+         font-style: normal; 
+         text-align: center;             
+         padding: 0 20px;
+         color: rgb(78,65,65);
+         text-align: left; }
+         
+.error {
+        display: block;
+        float: left;
+	    position: relative;
+	    left: 80%;
+	    top: -20px;
+	    height: 1px;  
+        font-family: 'OpenSansRegular';
+        font-size: 11px;
+        line-height: 10px;
+        font-weight: normal;
+        font-style: normal; 
+        color: rgb(255,255,255);
+        _padding: 10px;
+        _white-space: nowrap;
+        _background: rgba(94,64,0,0.8);
+        _border: 1px solid silver; 
+        _margin-bottom: 20px;
+        z-index: 999; }
+    

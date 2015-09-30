@@ -1,0 +1,107 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0; border:0; outline:0; font-size:100%; background:transparent; font-weight:normal; }
+            
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; }
+/* // HTML5 display-role reset for older browsers */
+
+
+/* get rid of those system borders being generated for a tags */
+a:active { outline: none; }
+a:focus { -moz-outline-style: none; }  
+/* // get rid of those system borders being generated for a tags */
+
+body { background-color: rgb(113,103,94); }
+#wrapper {
+         width: 740px;
+         margin: 0 auto;
+         padding: 0; }
+            
+#container {
+         position: relative;
+         float: left;
+         top: 20px;
+         width: 560px;
+         height: auto;
+         padding: 40px 50px;
+         margin-bottom: 50px;
+         background-color: rgb(255,255,255); 
+         border-top: 30px solid rgb(255,234,82);
+         border-bottom: 30px solid rgb(255,234,82); 
+         background-image: url(../images/okay/okay.005.png);
+         background-repeat: no-repeat;
+         background-position: left bottom; }   
+            
+#content {
+         position: relative;
+         float: left;
+         top: 20px;
+         width: 560px;
+         height: auto;
+         padding: 40px 50px;
+         margin-bottom: 50px;
+         background-color: rgb(255,255,255); 
+         border-top: 30px solid rgb(255,234,82);
+         border-bottom: 30px solid rgb(255,234,82); }     
+         
+h1, h2 {
+         font-family: 'OpenSansLight';
+         font-weight: normal;
+         font-style: normal; 
+         font-size: 32px;
+         line-height: 40px;
+         text-align: center; 
+         margin-bottom: 30px; }
+         
+h2 { 
+         font-size: 24px;
+         line-height: 28px;
+         margin-top: 20px;
+         margin-bottom: 10px; }
+         
+p, p a, p.left, ol, ul { 
+         font-family: 'OpenSansRegular';
+         font-weight: normal;
+         font-style: normal; 
+         font-size: 13px;
+         line-height: 21px; 
+         color: rgb(102,102,102); 
+         text-align: center;
+         margin-bottom: 10px; }
+         
+p.left { text-align: left; margin: 0 100px 10px 40px; }        
+ol, ul { text-align: left; margin: 0 100px 30px 60px; }
+li { margin-bottom: 7px; }
+
+
+/* HELLO 
+* establishes the welcome line within the yellow border */
+
+#hello {
+         display: block;
+         position: relative;
+         float: right;
+         top: -30px;
+         right: 5px; }
+         
+#hello p {
+         font-size: 12px;
+         line-height: 30px; 
+         color: black; }    
+
+
+/* OKAY
+* displays people with okay sign 
+* of course, SORRY shows a sorry sign */
+
+#okay, #sorry {
+         position: absolute;
+         bottom: 0;
+         right: 100px;
+         width: 200px;
+         height: 200px; } 
+         
+#sorry { 
+         right: 3px;
+         height: 150px;
+         bottom: -5px; }
